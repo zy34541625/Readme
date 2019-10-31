@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+
+        .box {
+            width: 100%;
+            height: 100%;
+        }
+
+        .header {
+            position: fixed;
+            z-index: 2008;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background: #fff;
+        }
+
+        .header img {
+            width: 8px;
+            height: 14px;
+        }
+
+        .header input {
+            width: 200px;
+            height: 25px;
+            border: 1px solid;
+        }
+
+        .header button {
+            width: 60px;
+            height: 30px;
+            color: #fff;
+            background: #E70C60;
+            border: none;
+            line-height: 30px;
+            border-radius: 5px;
+        }
+
+        .content {
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 45px;
+            background: #F8F8F8;
+        }
+
+        .top {
+            width: 100%;
+            height: 30px;
+            background: #F8F8F8;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .top a {
+            color: #969696;
+            font-size: 14px;
+            line-height: 30px;
+        }
+
+        .top a:hover {
+            color: #E70C60;
+        }
+
+        .weixiu1 {
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            background: #fff;
+        }
+
+        .left img {
+            width: 90px;
+            margin: 10px;
+            padding-left: 10px;
+            padding-top: 5px;
+        }
+        
+        .wenzi{
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            display: flex;
+            border-bottom: 1px solid #969696;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+
+        .wenzi .center{
+            padding-right: 30px;
+        }
+
+        .wenzi .left{
+            font-size: 11px;
+            border: 1px solid sandybrown;
+        }
+
+        .center h4 {
+            font-weight: 600;
+            font-size: 17px;
+        }
+
+        .bottom .right{
+            padding-top: 5px;
+            font-size: 12px;
+            padding-left: 122px;
+        }
+        .bottom .right span{
+            color: #333;
+        }
+        .bottom .right img{
+            width: 14px;
+            vertical-align: middle;
+        }
+        .bottom .right a{
+            padding-left: 55px;
+            color: #969696;
+        }
+        .weixiu2 {
+            margin-top: 5px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            background: #fff;
+            padding: 10px 0;
+        }
+        .weixiu3 {
+            padding: 0;
+            margin-top: 5px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            background: #fff;
+            padding: 10px 0;
+        }
+        .weixiu4 {
+            margin-top: 5px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            background: #fff;
+            padding: 10px 0;
+        }
+        .weixiu5 {
+            margin-top: 5px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            background: #fff;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="header">
+            <img src="./img/返回.png">
+            <input type="text" placeholder=" 搜索维修商家">
+            <button type="submit">搜索</button>
+        </div>
+        <div class="content">
+            <div class="top">
+                <a href="#">附近</a>
+                <a href="#">维修种类</a>
+                <a href="#">评价</a>
+            </div>
+            <div class="weixiu1">
+                <div class="left">
+                    <img src="./img/图层 4 拷贝.png">
+                </div>
+                <div class="wenzi">
+                    <div class="center">
+                        <h4>专业维修各类塑钢门窗...</h4>
+                        <p style="color: #969696;font-size: 14px;padding: 5px 0;">已服务89 接单率100%</p>
+                        <span style="color: sandybrown;font-size:12px;border: 1px solid sandybrown">评分<span style="color: seashell;background: sandybrown"> 5.0 </span></span>
+                        <span style="color: sandybrown;font-size:12px;padding: 10px 0;">  非常专业 上门快 价格合理</span>
+                        <p style="background:red;width:55px;font-size:12px;color: #fff;text-align: center;padding: 2px;line-height: 15px;margin-top: 10px;">免费预约</p>
+                    </div>
+                    <div class="left">
+                        <span>个人</span>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="right">
+                        <span><img src="./img/门店.png" alt="">季春成维修队</span>
+                        <a href="#">净月区森场路99号</a>
+                    </div>
+                </div>
+            </div>
+            <div class="weixiu2">
+                <div class="left">
+                    <img src="./img/图层 4 拷贝.png">
+                </div>
+                <div class="wenzi">
+                    <div class="center">
+                        <h4>专业维修各类塑钢门窗...</h4>
+                        <p style="color: #969696;font-size: 14px;padding: 5px 0;">已服务89 接单率100%</p>
+                        <span style="color: sandybrown;font-size:12px;border: 1px solid sandybrown">评分<span style="color: seashell;background: sandybrown"> 5.0 </span></span>
+                        <span style="color: sandybrown;font-size:12px;padding: 10px 0;">  非常专业 上门快 价格合理</span><br />
+                        <span style="float: left;margin-top: 7px;">￥100</span>
+                        <p style="background:red;width:55px;font-size:12px;color: #fff;text-align: center;padding: 2px;line-height: 15px;float: left;margin-top: 8px;margin-left: 10px;">预约金</p>
+                    </div>
+                    <div class="left">
+                        <span>企业</span>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="right">
+                        <span><img src="./img/门店.png" alt="">季春成维修队</span>
+                        <a href="#">净月区森场路99号</a>
+                    </div>
+                </div>
+            </div>
+            <div class="weixiu3">
+                <div class="left">
+                    <img src="./img/图层 4 拷贝.png">
+                </div>
+                <div class="wenzi">
+                    <div class="center">
+                        <h4>专业维修各类塑钢门窗...</h4>
+                        <p style="color: #969696;font-size: 14px;padding: 5px 0;">已服务89 接单率100%</p>
+                        <span style="color: sandybrown;font-size:12px;border: 1px solid sandybrown">评分<span style="color: seashell;background: sandybrown"> 5.0 </span></span>
+                        <span style="color: sandybrown;font-size:12px;padding: 10px 0;">  非常专业 上门快 价格合理</span>
+                        <p style="background:red;width:55px;font-size:12px;color: #fff;text-align: center;padding: 2px;line-height: 15px;margin-top: 10px;">免费预约</p>
+                    </div>
+                    <div class="left">
+                        <span>个人</span>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="right">
+                        <span><img src="./img/门店.png" alt="">季春成维修队</span>
+                        <a href="#">净月区森场路99号</a>
+                    </div>
+                </div>
+            </div>
+            <div class="weixiu4">
+                <div class="left">
+                    <img src="./img/图层 4 拷贝.png">
+                </div>
+                <div class="wenzi">
+                    <div class="center">
+                        <h4>专业维修各类塑钢门窗...</h4>
+                        <p style="color: #969696;font-size: 14px;padding: 5px 0;">已服务89 接单率100%</p>
+                        <span style="color: sandybrown;font-size:12px;border: 1px solid sandybrown">评分<span style="color: seashell;background: sandybrown"> 5.0 </span></span>
+                        <span style="color: sandybrown;font-size:12px;padding: 10px 0;">  非常专业 上门快 价格合理</span><br />
+                        <span style="float: left;margin-top: 7px;">￥100</span>
+                        <p style="background:red;width:55px;font-size:12px;color: #fff;text-align: center;padding: 2px;line-height: 15px;float: left;margin-top: 8px;margin-left: 10px;">预约金</p>
+                    </div>
+                    <div class="left">
+                        <span>企业</span>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="right">
+                        <span><img src="./img/门店.png" alt="">季春成维修队</span>
+                        <a href="#">净月区森场路99号</a>
+                    </div>
+                </div>
+            </div>
+            <div class="weixiu5">
+                <div class="left">
+                    <img src="./img/图层 4 拷贝.png">
+                </div>
+                <div class="wenzi">
+                    <div class="center">
+                        <h4>专业维修各类塑钢门窗...</h4>
+                        <p style="color: #969696;font-size: 14px;padding: 5px 0;">已服务89 接单率100%</p>
+                        <span style="color: sandybrown;font-size:12px;border: 1px solid sandybrown">评分<span style="color: seashell;background: sandybrown"> 5.0 </span></span>
+                        <span style="color: sandybrown;font-size:12px;padding: 10px 0;">  非常专业 上门快 价格合理</span>
+                        <p style="background:red;width:55px;font-size:12px;color: #fff;text-align: center;padding: 2px;line-height: 15px;margin-top: 10px;">免费预约</p>
+                    </div>
+                    <div class="left">
+                        <span>个人</span>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="right">
+                        <span><img src="./img/门店.png" alt="">季春成维修队</span>
+                        <a href="#">净月区森场路99号</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
